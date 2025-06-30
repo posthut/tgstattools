@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tgstattools</id>
+    <version>2.2.0</version>
+    <packageSourceUrl>https://github.com/posthut/tgstattools</packageSourceUrl>
+    <owners>posthut</owners>
+    <title>TgStatTools</title>
+    <authors>TgStatTools Team</authors>
+    <projectUrl>https://github.com/posthut/tgstattools</projectUrl>
+    <licenseUrl>https://github.com/posthut/tgstattools/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Advanced Telegram chat statistics collection and reporting system with modular architecture and proper filtering logic</description>
+    <summary>CLI tool for collecting and analyzing Telegram chat statistics</summary>
+    <tags>telegram statistics monitoring cli python</tags>
+    <dependencies>
+      <dependency id="python3" version="3.9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package> 
